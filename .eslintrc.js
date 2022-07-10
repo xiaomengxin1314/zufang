@@ -12,6 +12,10 @@ module.exports = {
   },
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off'
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    'vue/multi-word-component-names': 'off',
+    'vue/no-parsing-error': 'off',
+    'new-cap': 0,
+    'vue/no-duplicate-attributes': 0
   }
 }

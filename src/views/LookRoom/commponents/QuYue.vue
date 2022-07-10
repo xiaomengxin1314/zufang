@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <router-view></router-view>
-  </div>
+  <van-picker show-toolbar :columns="columns" toolbar-position="bottom" />
 </template>
 
 <script>
